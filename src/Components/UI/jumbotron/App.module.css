@@ -1,0 +1,39 @@
+.jumbo {
+    background: url('../../../img/ocean2.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 400px;
+    color: #EFEFEF;
+    background-attachment: fixed;
+}
+
+.jumbo:before {
+    content: '';
+    position: absolute;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    z-index: -1;
+}
+
+.jumbo h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.jumbo p {
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0 2rem;
+}

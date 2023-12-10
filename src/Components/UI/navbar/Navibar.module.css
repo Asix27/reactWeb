@@ -1,0 +1,35 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+.navbar.content {
+    padding: 16px;
+}
+
+.navbar.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar.sticky + .navbar.content {
+    padding-top: 60px;
+}
+
+a, .navbarBrand, .navbarNav .navLink {
+    color: #ADB1B8;
+    &:hover {
+        color: white;
+    }
+}
+
+.navbarNav {
+    margin-left: auto !important;
+    padding-left: 10px;
+}
+
+.navButton {
+    margin-right: 5px ;
+}
