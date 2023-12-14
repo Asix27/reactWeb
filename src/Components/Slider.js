@@ -1,6 +1,6 @@
 import React from 'react';
 import {Carousel} from "react-bootstrap";
-import ocean from '../img/ocean.jpg'
+import ocean from '../assets/img/ocean.jpg'
 
 const Slider = () => {
     return (

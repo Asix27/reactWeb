@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import ocean from "../img/ocean2.jpg";
+import ocean from "../assets/img/ocean2.jpg";
 
 const Point = () => {
     return (
