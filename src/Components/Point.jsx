@@ -1,31 +1,38 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
-import ocean from "../assets/img/ocean2.jpg";
+import { Col, Container, Row } from "react-bootstrap";
+import mesto from "../assets/img/mesto.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faHouse, faPhone, faUtensils} from "@fortawesome/free-solid-svg-icons";
+import instaQR from "../assets/img/insta.jpeg"
+import whatsappQR from "../assets/img/whatsapp.jpeg"
+
+
 
 const Point = () => {
     return (
-        <Container style={{marginBottom: '30px', marginTop: '30px'}}>
+        <Container style={{ marginBottom: '30px', marginTop: '30px' }}>
             <Row>
                 <Col md={7}>
-                    <img src={ocean} height={400} alt={"error"}/>
+                    <img src={mesto} height={400} border={5} style={{ borderRadius: 10 }} alt="error" />
                 </Col>
-                <Col md={5}>
-                    <h2>Web Developer Blog</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Aperiam cum dolor eveniet in labore perferendis
-                        praesentium reprehenderit voluptas. Adipisci animi assume
-                        cum cumque debitis, deserunt dignissimos doloribus earum
-                        exercitationem facilis fugiat in iusto magnam modi mollitia
-                        nemo nihil nisi nulla officiis perferendis perspiciatis quam quas,
-                        quia quod quos reprehenderit rerum tempore vel vitae voluptatum?
-                        Assumenda autem dignissimos dolorum illo quis, unde voluptates.
-                        Accusamus accusantium architecto consequatur culpa deleniti
-                        deserunt dolorem, doloremque doloribus dolorum ea et excepturi
-                        ipsum laudantium magnam nulla numquam officiis, pariatur possimus
-                        provident ratione temporibus vitae, voluptas? Cumque dolores impedit
-                        incidunt, inventore ipsum iusto libero nobis sint veniam.
-                    </p>
+                <Col md={5} style={{ color: 'white', display: 'flex', flexDirection: 'column', justifyContent: "center"}}>
+                    <h2 style={{}}>О нас</h2>
+                    <div style={{ display: 'flex', alignItems: 'center', fontSize: '1.5rem' }}>
+                        <FontAwesomeIcon icon={faUtensils} style={{ marginRight: '10px', fontSize: '1.5rem' }} />
+                        <p style={{ margin: 0}}>Кафе MEDINA</p>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', fontSize: '1.5rem' }}>
+                        <FontAwesomeIcon icon={faHouse} style={{ marginRight: '10px', fontSize: '1.5rem' }} />
+                        <p style={{ margin: 0 }}>Адрес: Жолбарыс 15</p>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', fontSize: '1.5rem' }}>
+                        <FontAwesomeIcon icon={faPhone} style={{ marginRight: '10px', fontSize: '1.5rem' }} />
+                        <p style={{ margin: 0 }}>Контакты:  8 747 440 82 85</p>
+                    </div>
+                    <div style={{ display: 'flex', marginRight: '200px' }}>
+                        <img src={instaQR} alt="Instagram QR" style={{ maxWidth: '50%', height: 100, margin: '0 auto', marginRight: '200px' }} />
+                        <img src={whatsappQR} alt="WhatsApp QR" style={{ maxWidth: '30%', height: 100, margin: '0 auto'}} />
+                    </div>
                 </Col>
             </Row>
         </Container>

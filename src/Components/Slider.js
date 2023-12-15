@@ -15,8 +15,8 @@ const Slider = () => {
                     alt='first slide'
                 />
                 <Carousel.Caption>
-                    <h3>Web Developer Blog</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>MEDINA</h3>
+                    <p>Место куда хочется возвращаться</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{height: '600px'}}>
@@ -26,8 +26,8 @@ const Slider = () => {
                     alt='first slide'
                 />
                 <Carousel.Caption>
-                    <h3>Web Developer Blog</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>MEDINA</h3>
+                    <p>Место куда хочется возвращаться</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{height: '600px'}}>
@@ -37,8 +37,8 @@ const Slider = () => {
                     alt='first slide'
                 />
                 <Carousel.Caption>
-                    <h3>Web Developer Blog</h3>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>MEDINA</h3>
+                    <p>Место куда хочется возвращаться</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
