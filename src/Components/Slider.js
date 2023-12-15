@@ -1,14 +1,17 @@
 import React from 'react';
-import {Carousel} from "react-bootstrap";
-import ocean from '../assets/img/ocean.jpg'
+import {Carousel, Col, Container, Row} from "react-bootstrap";
+import kafe1 from '../assets/img/kafe11.jpg'
+import kafe2 from '../assets/img/kafe22.jpg'
+import kafe3 from '../assets/img/kafe33.jpeg'
 
 const Slider = () => {
     return (
+        <>
         <Carousel>
             <Carousel.Item style={{height: '600px'}}>
                 <img
                     className='d-block w-100'
-                    src={ocean}
+                    src={kafe1}
                     alt='first slide'
                 />
                 <Carousel.Caption>
@@ -19,7 +22,7 @@ const Slider = () => {
             <Carousel.Item style={{height: '600px'}}>
                 <img
                     className='d-block w-100'
-                    src={ocean}
+                    src={kafe2}
                     alt='first slide'
                 />
                 <Carousel.Caption>
@@ -30,7 +33,7 @@ const Slider = () => {
             <Carousel.Item style={{height: '600px'}}>
                 <img
                     className='d-block w-100'
-                    src={ocean}
+                    src={kafe3}
                     alt='first slide'
                 />
                 <Carousel.Caption>
@@ -39,6 +42,13 @@ const Slider = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+        <Container fluid style={{ backgroundColor: '#192930', height: 3}}>
+            <Row>
+                <Col style={{color: 'black' , display: 'flex', justifyContent: 'center', padding: '10px' }}>
+                </Col>
+            </Row>
+        </Container>
+        </>
     );
 };
 

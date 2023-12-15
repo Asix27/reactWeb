@@ -1,58 +1,66 @@
 [
   {
     "id": 0,
-    "imageUrl": "",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=1GOBOIvmaiW-AIW93rkUPGgTVJGpMHxSO",
     "titles": "Пельмени",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Традиционное блюдо, тесто с мясной начинкой, варёные."
   },
   {
     "id": 0,
-    "imageUrl": "",
-    "titles": "Мампар",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=1_gMxodrL5PnDIx8eKIsUL6SyMDI31nZ0",
+    "titles": "Гуйру лагман",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Традиционный лагман с тянутыми лапшой, овощами, мясным соусом, питательный."
   },
   {
     "id": 0,
-    "imageUrl": "",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=17hrTJdDUDC7Dfjuzua0tROfU_6eCyze7",
     "titles": "Чечивичный суп",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Питательный суп на основе чечевицы, овощей, пряностей, сытный."
   },
   {
     "id": 0,
-    "imageUrl": "",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=135BdLYQ-mIDjOeB5Vw-KV7yoKW0gg6aT",
     "titles": "Нарын",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Национальное блюдо, тонкое тесто, мясо, специи, азиатский вкус."
   },
   {
     "id": 0,
-    "imageUrl": "",
-    "titles": "Пельмени",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=1QSQk_XmJQEOlEEXWXRTEHlSXFwITaOjB",
+    "titles": "Домашний лагман",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Душистый домашний лагман, свежие овощи, нежное мясо, ручная лапша."
   },
   {
     "id": 0,
-    "imageUrl": "",
-    "titles": "Мампар",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=1fngJoCVhJp3mF3NNqZRIsNUzECl9WODy",
+    "titles": "Фрикасе",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Классическое французское фрикасе, кремовый соус, нежное куриное мясо, ароматное."
   },
   {
     "id": 0,
-    "imageUrl": "",
-    "titles": "Чечивичный суп",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=1cKiaXqRFJx2-UifkHPxtr37k53YQArMS",
+    "titles": "Рамен",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Японский рамен, бульон на костном мясе, свежие овощи, пикантный."
   },
   {
     "id": 0,
-    "imageUrl": "",
-    "titles": "Нарын",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=1LsMAoR4Ofh2x5at4ba8o8Y6gr8-F1z-K",
+    "titles": "Манты",
     "price": 1500,
-    "category": 0
+    "category": 0,
+    "text": "Манты - традиционное блюдо, мясо и специи в паровом тесте, сытное."
   }
 ]

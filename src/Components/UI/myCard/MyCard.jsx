@@ -1,19 +1,20 @@
 import React from 'react';
-import { Card, Col } from "react-bootstrap";
-import ocean from "../../../assets/img/ocean2.jpg";
+import { Card, Col, Button } from "react-bootstrap";
 import cl from './MyCard.module.css';
 
-function MyCard({ id, imageUrl, titles, price }) {
+function MyCard({ id, imageUrl, titles, price, text }) {
     return (
         <Col md={3} className={cl.col}>
-            <Card className={cl.cardHover} style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-                <Card.Img className={cl.cardImgTop} variant='top' src={ocean} />
+            <Card className={cl.cardCustom}>
+                <Card.Img className={cl.cardImgTop} variant='top' src={imageUrl} />
                 <Card.Body>
-                    <Card.Title>{titles}</Card.Title>
-                    <Card.Text>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, magni.
+                    <Card.Title className={cl.cardTitle}>{titles}</Card.Title>
+                    <Card.Text className={cl.cardText}>
+                        {text}
                     </Card.Text>
+                    {/* Кнопка, которая появляется при наведении */}
                 </Card.Body>
+                <Button variant="warning" className={cl.buyButton}>Купить</Button>{' '}
             </Card>
         </Col>
     );
